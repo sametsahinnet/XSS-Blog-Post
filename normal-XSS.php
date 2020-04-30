@@ -9,26 +9,26 @@
 
 
 
-	<?php 
-	$benCSRFtoken = "samet";
-	$printMD5 = md5($benCSRFtoken);
-	?>
+//	<?php 
+//	$benCSRFtoken = "samet";
+//	$printMD5 = md5($benCSRFtoken);
+//	?>
 
 
 
 	<!--<a href="?search=query">Only XSS ! </a>-->
-
+<!--
 	<form>
 
 		<input type="hidden" name="CSRFtoken" value="<?php echo $printMD5 ?>">
 
-		<input type="text" name="search" value="<?php echo $_GET['search']; ?>">	
+//		<input type="text" name="search" value="<?php echo $_GET['search']; ?>">	
 
 		<input type="submit" value="Submit">
 
 	</form>	
 
 
-
+-->
 </body>
 </html>
